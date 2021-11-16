@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name=viewport content="width=device-width,initial-scale=1.0">
+        <title>Homepage</title>
+        <style>
+            *{
+                margin: 0;
+                padding:0;
+                box-sizing: border-box;
+                font-family: 'poppins',sans-serif;
+            }
+            body{
+                min-height: 100vh;
+                width: 100%;
+                background-color: #000;
+                background-image: url("https://images.squarespace-cdn.com/content/v1/5feb53185d3dab691b47361b/1609930694440-M0BC58RB85E690E4AW7M/d1dfe-illustrationdemonstratingindividualsaccessingpersonalizedmentalhealthcare.gif");
+                background-repeat: no-repeat;
+                background-size: cover;
+                
+            }
+            nav{
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                padding: 20px 0;
+                
+            }
+            
+            .logo{
+                font-size: 40px; 
+                font-weight: 600;
+                -webkit-text-stroke: 1px #fff;
+                background-clip: text;
+                background-position:0 0 ;            
+            }
+          
+            nav ul li{
+                display: inline-block;
+                list-style: none;
+                margin: 10px 30px;
+            }
+            nav ul li a{
+                color: #fff;
+                text-decoration: none;
+                position: relative;
+            }
+            nav ul li a::after{
+                content: '';
+                width: 0;
+                height: 3px;
+                position: absolute;
+                bottom: -15px;
+                left:50%;
+                transform: translateX(-50%);
+                background: #fff;
+                transition: width 0.3s;
+
+            }
+            nav ul li a:hover::after{
+                width:50%;
+            }
+            .head{
+                font-size:60px;
+                margin-top: 12%;
+                color: whitesmoke;
+                margin-left: 20px;
+                margin-top: 70px;
+            }
+          
+            .butt{
+                background:#e0b219 ;
+                border:0;
+                outline: none;
+                padding: 15px 35px;
+                color: rgb(20, 8, 44);
+                margin-left: 30px;
+              position: absolute;
+              margin-top: 380px;
+              font-size: 20px;
+              font-weight: bold;
+               
+            }
+        </style>
+    </head>
+    <body >
+        <div >
+            <nav>
+                <div class=logo>
+                    MENTAL-HEALTH
+                    </div>
+                <ul>
+                    <li><a href="https://www.canva.com/design/DAEuY_RPu78/LulCWFPBKUmv_hbW-UOeAQ/watch?utm_content=DAEuY_RPu78&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink">Demo</a></li>
+                    <li><a href="BMI.html">BMI checker</a></li>
+                    <li><a href="sleeptrack.html">Sleep tracker</a></li>
+                    <li><a href="Page-3.html">Game&Chill</a></li>
+                </ul>
+            </nav>        
+        </div>
+        <h1 class=head>It's Ok to fall apart!<br><span style="font-size: 40px;">We still love you :)</span></h1>
+        <a href="https://www.canva.com/design/DAEuYNJvxqA/IHBoZDlGhL0wpeTSzj8cBg/watch?utm_content=DAEuYNJvxqA&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink"><button type="button"class=butt>Explore your emotions!</button></a>
+       
+    </body>
+</html>

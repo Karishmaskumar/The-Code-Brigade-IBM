@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        
+        <link rel="stylesheet" href="game.css">
+        <style>
+        .frame {
+  width: 90%;
+ 
+  text-align: center;
+}
+button {
+  margin: 20px;
+}
+.custom-btn {
+  color: rgb(0, 0, 0);
+  width: 130px;
+  height: 40px;
+
+  font-family: 'Lato', sans-serif;
+  font-weight: 500;
+  background: transparent;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+}
+
+
+
+/* 2 */
+.btn-2 {
+  color: #41c028;
+  border: 1px solid #41c028;
+  box-shadow:  0 0 5px #41c028,  0 0 5px #41c028 inset;
+}
+.btn-2:before {
+  height: 0%;
+  width: 2px;
+}
+.btn-2:hover {
+  color: #fff;
+  box-shadow: inset 0 0 10px #41c028, 0 0 20px #41c028 inset, 0 0 20px #41c028 inset;
+}
+        </style>
+        </head>
+<body >
+<section class="gallery">
+    <div class="container">
+      <div class="toolbar">
+        <div class="search-wrapper">
+          <input type="search" placeholder="Search for games">
+          <div class="counter">
+            Total games: <span>4</span></div>
+        </div>
+        <ul class="view-options">
+          <li class="zoom">
+            <input type="range" min="180" max="380" value="280">
+          </li>
+          <li class="show-grid active">
+            <button disabled>
+              <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/162656/grid-view.svg"  alt="grid view">  
+            </button>
+          </li>
+          <li class="show-list">
+            <button>
+              <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/162656/list-view.svg" alt="list view">  
+            </button>
+          </li>
+          <li class="show-list">
+            <button><a href="gamemain.html">
+              <img src="https://cdn0.iconfinder.com/data/icons/modern-ui-glyph-1/64/modern-ui-glyph-1-03-512.png"  alt="list view" style="width: 1.5cm; height: 1.5cm;">  
+            </a></button>
+          </li>
+        </ul>
+      </div>
+      <ol class="image-list grid-view">
+        <li>
+          <figure>
+            <img src="https://is3-ssl.mzstatic.com/image/thumb/Purple124/v4/75/35/db/7535dbe0-3a89-fff9-7ee4-8ecbb1c7e97b/source/512x512bb.jpg" style="width: 10cm;height: 9cm;" alt="">
+            <figcaption>
+              <p style="text-align: left;">Drag and drop</p>
+              <div class="frame">
+           
+                <button class="custom-btn btn-2"><a href="balldrager.html" style="text-decoration: none; color: rgb(0, 0, 0);">PLAY NOW</a></button>
+                
+              
+              </div>             </figcaption>
+          </figure>
+        </li>
+        <li>
+          <figure>
+            <img src="tearthecloth.jfif" alt="" style="width: 8.5cm; height: 9cm;">
+            <figcaption>
+              <p>Tear the cloth</p>
+              <div class="frame">
+           
+                <button class="custom-btn btn-2"><a href="tearthecloth.html" style="text-decoration: none; color: rgb(0, 0, 0);">PLAY NOW</a></button>
+                
+              
+              </div>            </figcaption>
+          </figure>
+        </li>
+        <li>
+          <figure>
+            <img src="bow and arrow.jpg" alt="">
+            <figcaption>
+              <p>Bow and arrow</p>
+              <div class="frame">
+           
+                <button class="custom-btn btn-2"><a href="tearthecloth.html" style="text-decoration: none; color: rgb(0, 0, 0);">PLAY NOW</a></button>
+                
+              
+              </div>             </figcaption>
+          </figure>
+        </li>
+        <li>
+          <figure>
+            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/162656/unsplash_nature4.jpg" alt="">
+            <figcaption>
+              <p>Drag the strings</p>
+              <div class="frame">
+           
+                <button class="custom-btn btn-2"><a href="tearthecloth.html" style="text-decoration: none; color: rgb(0, 0, 0);">PLAY NOW</a></button>
+                
+              
+              </div>             </figcaption>
+          </figure>
+        </li> 
+      </ol>
+    </div>
+  </section>
+  <script src="game.js"></script>
+</body>
+</html>
+  

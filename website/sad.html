@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+    <title>sad</title>
+  <head>
+      <style>
+          *{
+              padding:0px;
+              margin:0px;
+              box-sizing:border-box;
+          }
+          .box{
+              width:100%;
+              height:800px;
+          }
+          .boxmain{
+            width:100%;
+              height:100px; 
+          }
+          
+          .section-1{
+              height:110vh;
+              background-image: url("https://cur.glitter-graphics.net/pub/3684/3684572wk9zl251ow.gif");
+              background-repeat: no-repeat;
+            background-position: right;
+              background-size: 30%;
+             }
+             .information{
+                width: 1000px;
+            height:1000px;
+            position: absolute;
+            top:50%;
+            left:-10%;
+           transform: translateY(-50%); 
+            }
+        #circle{
+            width: 1000px;
+            height:1000px;
+            position: absolute;
+            top:0;
+            left:0;
+           border-radius: 50%;
+           transform: rotate(0deg);
+           transition: 1s;
+        }
+        .feature img{
+            width:70px;
+        }
+        .feature{
+            position: absolute;
+        }
+        .one{
+            top:450px;
+            right:50px;
+        }
+        .two{
+            top: 150px;
+            left:350px;
+            transform: rotate(-90deg);
+        }
+        .three{
+            bottom: 450px;
+            left:50px;
+            transform: rotate(-180deg);
+        }
+        .bgimg{
+            background-image: url("https://cur.glitter-graphics.net/pub/3684/3684572wk9zl251ow.gif");
+            background-repeat: no-repeat;
+            background-position: right;
+            background-size: 30%;
+        }
+        .controls{
+            position: absolute;
+             right:70%;
+            top:50%;
+            transform: translateY(-50%);
+            text-align: center;
+        }
+        .controls h3{
+            margin:15px 0;
+            color:#fff;
+        }
+        #upBtn{
+            width:50px;
+            cursor:pointer;
+        }
+        #downBtn{
+            width:50px;
+            cursor:pointer;
+            transform:rotate(180deg);
+        }
+        .overlay{
+            width:0;
+            height:0;
+            border-top: 500px solid black;
+            border-right: 500px solid transparent;
+            border-bottom: 450px solid black;
+            border-left: 500px solid black;
+            position: absolute;
+            left:0;
+            top:0;
+        }
+        .option{
+            text-decoration: none;
+            border-width: 100%;
+            border: 5px solid black;
+  padding: 20px 30px;
+  cursor: pointer;
+        }
+        .option:hover {
+  background-color: #045aaa9f;
+}
+         .section-2{
+             background-image: url("https://www.audtohear.com/wp-content/uploads/2020/08/myths-assumptions-about-audiologist.jpg");
+             background-size: cover;
+             background-repeat: no-repeat;
+             background-attachment: fixed;
+            }
+          
+            .content{
+                width: 100%;
+                position: absolute;
+              top:150%;
+            }
+            .left-col{
+                margin-left: 0%;
+                font-size: 90px;
+                color: rgb(228, 156, 191);
+                line-height:110px;
+                float:left;
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            }
+            .right-col{
+                float: right;
+                margin-right: 6%;
+                margin-top: 180px;
+                display: flex;
+                align-items:center;
+            }
+            .right-col p{
+                
+                font-size: 18px;
+                color: #5f5f5f;
+                font-weight: 400;
+                margin-right: 15px;
+            }
+            #icon{
+                width: 80px;
+                cursor: pointer;
+            }
+         .section-3{
+             background-image: url("");
+             filter: blur(3px);
+             background-size: cover;
+             background-attachment: fixed;
+         }
+         
+        .show {display: block;}
+.alert {
+  padding: 10px;
+  background-color: #a327a3a2;
+  color: rgb(255, 247, 247);
+  opacity: initial;
+  transition: opacity 0.6s;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 30px;
+}
+
+.closebtn {
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  float: right;
+  font-size: 60px;
+  cursor: pointer;
+  transition: 0.3s;
+  
+}
+
+.closebtn:hover {
+  color: black;
+}
+      </style>
+    
+  </head>
+  <body>
+    <div class="section-1 boxmain" id=main>
+        <div class="information">
+            <div class="overlay"></div>
+            <div id="circle">
+                <div class="feature one">
+                 <a href="#remusic"class=option ><span style="color:Black;font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;font-size: 30;font-weight: bold;" >Music</span></a>
+                </div>
+                
+                <div class="feature two"> 
+                 <a href="yoga.html" class=option ><span style="color:Black;font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;font-size:30;font-weight: bold;" >Yoga</span></a>
+             </div>
+               
+                <div class="feature three">
+                 <a href="consultant.html"  class=option > <span style="color:Black;font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;font-size: 30;font-weight: bold;" >Consultations</span></a>
+                </div>
+                
+                </div>
+               
+            </div>
+         
+        </div>
+        <div class="controls">
+            <image src="https://www.clker.com/cliparts/8/9/M/d/0/j/up-black-arrow-md.png" id=upBtn ></image>
+            <h3><span style="color:white;font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;font-size: 30;">You are Sad!<br>No worries we have 3 solutions for you :)</span></h3>
+            <image src="https://www.clker.com/cliparts/8/9/M/d/0/j/up-black-arrow-md.png" id=downBtn></image>
+        </div>
+        <script>
+            var circle=document.getElementById("circle");
+            var upBtn=document.getElementById("upBtn");
+            var downBtn=document.getElementById("downBtn");
+            var rotateValue=circle.style.transform;
+            var rotateSum;
+             
+ 
+            upBtn.onclick=function()
+            {
+                rotateSum=rotateValue+"rotate(-90deg)";
+                circle.style.transform=rotateSum;
+                rotateValue=rotateSum;
+            }
+            downBtn.onclick=function()
+            {
+                rotateSum=rotateValue+"rotate(90deg)";
+                circle.style.transform=rotateSum;
+                rotateValue=rotateSum;
+            }
+        </script>
+    </div>
+    <div class="section-2 box" id=remusic>
+        <div class="alert">
+            <span class="closebtn">&times;</span>  
+            <div >
+              <div style="float:right;">
+                <img src="https://th.bing.com/th/id/R.864b52fe2cbeba573512baccd19d9f79?rik=qTjr1kV3FqPW5A&riu=http%3a%2f%2fwebiconspng.com%2fwp-content%2fuploads%2f2017%2f09%2fMusic-Notes-PNG-Image-73162.png&ehk=nn2xj1n%2bpFUOP88Ik5o1HEOwUrS1xoeYyu74QOyUulQ%3d&risl=&pid=ImgRaw&r=0" height=170px width=500px>
+              </div>
+              Life is like a piano.White keys are happy moments and black keys are sad moments.<br>
+              But remember both keys are played together to give sweet music.
+             <br>Be Happy Always :)<br>
+             <br>
+             
+            </div>
+            <script>
+                var close = document.getElementsByClassName("closebtn");
+                var i;
+                
+                for (i = 0; i < close.length; i++) {
+                  close[i].onclick = function(){
+                    var div = this.parentElement;
+                    div.style.opacity = "0";
+                    setTimeout(function(){ div.style.display = "none"; }, 600);
+                  }
+                }
+                </script>
+              </div>
+        <div class="container">
+        </div>
+        <div class="content">
+            <h1 class="left-col">MUSIC<br>&nbsp;&nbsp;&nbsp;&nbsp;&<br>CHILL</h1>
+        <div class="right-col">
+            <span style="color:Black;font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;font-size:30px;font-weight: bold;" >Click here to Listen<br>
+                <a href="#main" ><span style="color:rgb(204, 90, 194);background-color:black;font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;font-size:20px;font-weight: bold;" >Back to Home Page</span></a></span>
+            <img src="play.png" id=icon>
+        </div>
+    </div>
+    <audio id="mySong">
+        <source src="calm-river-lofi-background-music-for-videos-7289.mp3" type="audio/mp3">
+    </audio>
+    <script>
+        var mySong=document.getElementById("mySong");
+        var icon=document.getElementById("icon");
+        icon.onclick=function(){
+            if(mySong.paused){
+                mySong.play();
+                icon.src="pause.png"
+            }else{
+                mySong.pause();
+                icon.src="play.png"
+
+            }
+        }
+
+        </script>
+          
+    </div>
+    <div align=right>
+    
+    </div>
+    </div>
+     
+  </body>
+</html>

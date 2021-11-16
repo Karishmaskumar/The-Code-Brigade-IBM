@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<head>
+    <title>consultant</title>
+    <style>
+        *{
+            padding:0;
+            margin:0;
+            font-family: sans-serif;
+        }
+        .hero{
+            width: 100%;
+            height: 100vh;
+           
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        h1{
+            font-size: 30px;
+            position: relative;
+            margin-bottom: 80px;
+           
+        }
+        h1::after{
+          content: '';
+          width: 150px;
+          height: 3px;
+          background: linear-gradient(to right,#f44336,#ad41ca);
+          position: absolute;
+          bottom: -20px;
+          left: 50%;
+          transform: translateX(-50%);
+        }
+        .review-box{
+            width: 90%;
+            max-width: 700px;
+            height: 300px;
+            border-radius: 10px;
+            box-shadow: -10px 10px 40px rgba(0,0,0,0.25);
+            position: relative;
+            overflow: hidden;
+        }
+        .card{
+            height: 300px;
+            padding: 40px;
+            color: rgb(14, 13, 13);
+            line-height: 22px;
+            box-sizing: border-box;
+            background: #fff;
+            position: relative;
+        }
+        .card p{
+            font-family: "Comic Sans MS";
+        }
+        .profile{
+            display: flex;
+            align-items: center;
+            margin-bottom: 40px;
+        }
+        .profile img{
+            width: 70px;
+            border-radius: 50%;
+            margin-right: 20px;
+        }
+        .profile h3{
+            font-size: 26px;
+            color: #f44336;
+            margin-bottom: 8px;
+        }
+        #slide{
+            width: 100%;
+            padding-right: 60px;
+            box-sizing: border-box;
+            position: absolute;
+            top: 0;
+            left: 0;
+            transition:0.5s ;
+        }
+        .slidebar{
+            width: 60px;
+            height: 100%;
+            padding: 15px 0;
+            box-sizing: border-box;
+            background: #f44336;
+            position: absolute;
+            right: 0;
+            top: 0;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .slidebar img{
+            width: 25px;
+            padding: 5px;
+            background: #fff;
+            border: 50%;
+            cursor: pointer;
+        }
+        .bg-image {
+background-image: url("https://media.istockphoto.com/photos/blue-medical-background-with-clipboard-and-stethoscope-picture-id1133637775?k=20&m=1133637775&s=170667a&w=0&h=iyF2x95LmisvBprxFQ4DHYOts8VVXIQg-wh2Mo1ozBQ=");
+background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  
+        }
+       
+    </style>
+</head>
+<body class=bg-image> 
+    <div class="hero">
+        <h1>Consultants/Doctors</h1>
+        <div class="review-box" style="color: black;">
+            <div id="slide">
+                <div class=card>
+                    <div class=profile>
+                    <img src="https://th.bing.com/th/id/OIP.C1gEDW2PSjBUDThK5oLquwAAAA?w=176&h=180&c=7&r=0&o=5&dpr=1.25&pid=1.7" >
+                    <div><h3>Nina Hudson</h3>
+                        <p>psychiatrist</p>
+                        </div>
+                </div>
+                    <p> <ul type=disc >
+                        <li>Contact Number:7688097844</li>
+                        <li>Email ID:nidahudsonrisehigh@gmail.com</li>
+                        <li>Call/mail me to get offline appointments :)</li>
+                       </ul></p>
+                </div>
+                <div class=card>
+                    <div class=profile>
+                        <img src="https://th.bing.com/th/id/OIP.Xc1URxWrntS9mlLQ09oXEgAAAA?w=174&h=180&c=7&r=0&o=5&dpr=1.25&pid=1.7">
+                    <div><h3>Margo Larson</h3>
+                        <p>Speaker|Consultant</p>
+                        </div>
+                </div>
+                    <p>  <ul type=disc class=title>
+                        <li>Contact Number:8677989422</li>
+                        <li>Email ID:margolarsonrisehigh@gmail.com</li>
+                        <li>Call/mail me to get offline appointments :)</li>
+                       </ul></p>
+                </div>
+                <div class=card>
+                    <div class=profile>
+                        <img src="https://th.bing.com/th/id/OIP.RzS4mfm0v-Qt0x0xJnmN-QAAAA?w=181&h=181&c=7&r=0&o=5&dpr=1.25&pid=1.7">
+                    <div><h3>Mike Ross</h3>
+                        <p>Life coach</p>
+                        </div>
+                </div>
+                    <p> <ul type=disc class=title>
+                        <li>Contact Number:7123481088</li>
+                        <li>Email ID:mikerossrisehigh@gmail.com</li>
+                        <li>Call/mail me to get offline appointments :)</li>
+                       </ul></p>
+                </div>
+                <div class=card>
+                    <div class=profile>
+                        <img src="https://th.bing.com/th/id/OIP.8__5QJKTMJVZJMu_FsY0gQHaIc?w=155&h=180&c=7&r=0&o=5&dpr=1.25&pid=1.7">
+                    <div><h3>Adam John</h3>
+                        <p>psychiatrist</p>
+                        </div>
+                </div>
+                    <p>  <ul type=disc class=title>
+                        <li>Contact Number:7125654488</li>
+                        <li>Email ID:adamjohnrisehigh@gmail.com</li>
+                        <li>Call/mail me to get offline appointments :)</li>
+                       </ul></p>
+                </div>
+                <div class=card>
+                    <div class=profile>
+                        <img src="https://th.bing.com/th/id/OIP.cOANx6yyAyxR1sO9Z8S39QHaHc?w=173&h=180&c=7&r=0&o=5&dpr=1.25&pid=1.7">
+                    <div><h3>Nicole Scova</h3>
+                        <p>Doctor</p>
+                        </div>
+                </div>
+                    <p> 
+                        <ul type=disc class=title>
+                         <li>Contact Number:9441657988</li>
+                         <li>Email ID:nicolescovarisehigh@gmail.com</li>
+                         <li>Call/mail me to get offline appointments :)</li>
+                        </ul></p>
+                </div>
+                <div class=card>
+                    <div class=profile>
+                        <img src="https://th.bing.com/th?q=Smiling+Bitmoji&w=120&h=120&c=1&rs=1&qlt=90&cb=1&dpr=1.25&pid=InlineBlock&mkt=en-IN&adlt=moderate&t=1&mw=247">
+                    <div><h3>John Doe</h3>
+                        <p>Counselling Pscychologist</p>
+                        </div>
+                </div>
+                    <p>    <ul type=disc class=title>
+                        <li>Contact Number:6553457801</li>
+                        <li>Email ID:johndoerisehigh@gmail.com</li>
+                        <li>Call/mail me to get offline appointments :)</li>
+                       </ul></p>
+                </div>
+               
+            </div>
+            <div class=slidebar>
+              <img src="up-arrow.png" id=upArrow>
+              <img src="down-arrow.png" id=downArrow>
+            </div>
+
+        </div>
+    </div>
+    <script>
+        var slide=document.getElementById("slide");
+        var upArrow=document.getElementById("upArrow");
+        var downArrow=document.getElementById("downArrow");
+
+        let x=0;
+        downArrow.onclick=function(){
+            if(x >"-900"){
+                x=x - 300;
+            slide.style.top=x+"px";  
+            }
+            
+        }
+
+        upArrow.onclick=function(){
+            if(x < 0){
+                x=x + 300;
+            slide.style.top=x+"px";  
+            }
+            
+        }
+    </script>
+</body>
